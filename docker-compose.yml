@@ -10,7 +10,7 @@ services:
 
 ###> doctrine/doctrine-bundle ###
   database:
-    image: mariadb:${MARIADB_VERSION:-10.8.2}
+    image: mariadb:${MARIADB_VERSION:-10.9.4}
     environment:
       MARIADB_RANDOM_ROOT_PASSWORD: "yes"
       MARIADB_DATABASE: ${MARIADB_DATABASE:-app}
